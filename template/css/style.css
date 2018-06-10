@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+/*
+#######################################
+#   MEDIA
+#######################################
+*/
+
+/*mobiles styles*/
+@media only screen and (max-width: 480px) {
+    .row, .block, .entrance, .sort {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .color {
+        height: 40px;
+    }
+
+    .border, .entrance, .sort {
+        margin-top: 10px;
+    }
+}
+
+/*tablet styles*/
+@media only screen and (min-width: 481px) and (max-width: 750px) {
+    .row, .block, .entrance, .sort {
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    .color {
+        height: 40px;
+    }
+
+    .border, .entrance, .sort {
+        margin-top: 10px;
+    }
+
+}
+
+
+
+
